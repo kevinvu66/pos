@@ -5,14 +5,14 @@
       <div class="grid grid-cols-2 gap-4 s:gap-0 s:text-sm">
         <div class="text-end">
           <nuxt-link to="/traCuuDonHang">
-            <button class="bg--btn w-60 s:w-full flex justify-center items-center py-2 ml-48 sx:ml-28 s:ml-0 rounded">
+            <button class="bg--btn w-60 s:w-full flex justify-center items-center s:text-sm py-2 ml-48 s:ml-0 rounded">
               <img src="../assets/images/description.png" width="32px" height="32px">
               <label class="text-white mx-1">Tra cứu đơn hàng</label>
             </button>
           </nuxt-link>
         </div>
         <div class="text-start">
-          <button type="button" class="bg--btn w-60 s:w-full flex justify-center ml-1 s:ml-0 items-center py-2 rounded"
+          <button type="button" class="bg--btn w-60 s:w-full flex justify-center s:text-sm ml-1 s:ml-0 items-center py-2 rounded"
             data-modal-toggle="vu-modal">
             <img src="../assets/images/check_circle.png" width="32px" height="32px">
             <label class="text-white mx-3 s:mx-0">Mở ca</label>
@@ -23,98 +23,98 @@
 
       <div>
 
-        <div class="flex items-center font-bold ">
+        <div class="flex items-center font-bold mt-4">
           <label class="title">Chức năng chính</label>
         </div>
 
-        <div class="grid grid-cols-4 gap-3 s:grid-cols-3 mt-3 text-white">
-          <div class="bg--btn w-full py-16 rounded">
-            <nuxt-link to="/cart">
-              <div class="flex justify-center">
-                <img src="../assets/images/ep_sell.png" width="40px" height="40px" />
+        <div class="grid grid-cols-4 gap-3 s:grid-cols-3 mt-3  text-white ">
+          <div class="bg--btn w-full py-16 s:px-2 s:py-2 rounded s:rounded-xl">
+            <nuxt-link to="/cart" class=" hover:text-amber-300 ">
+              <div class="flex justify-center s:mt-4">
+                <img src="../assets/images/ep_sell.png" class="w-10 h-10 s:w-7 s:h-7" />
               </div>
-              <div class="flex justify-center mt-2.5">
+              <div class="flex justify-center mt-2.5 s:mt-1.5 s:text-xs text-center">
                 <label>Bán hàng</label>
               </div>
             </nuxt-link>
           </div>
-          <div class="bg--btn w-full py-16 rounded">
-            <nuxt-link to="/orderManager">
-              <div class="flex justify-center">
-            <img src="../assets/images/carbon_order-details.png" width="40px" height="40px" />
+          <div class="bg--btn w-full py-16 s:px-2 s:py-2 rounded s:rounded-xl">
+            <nuxt-link to="/orderManager" class=" hover:text-amber-300">
+              <div class="flex justify-center s:mt-4">
+            <img src="../assets/images/carbon_order-details.png" class="w-10 h-10 s:w-7 s:h-7" />
               </div>
-              <div class="flex justify-center mt-2.5">
+              <div class="flex justify-center mt-2.5 s:mt-1.5 s:text-xs text-center">
 
-            <label>Quản lý đơn hàng</label>
+                <label>Quản lý đơn hàng</label>
               </div>
           </nuxt-link>
           </div>
-          <div class="bg--btn w-full py-16 rounded">
-            <nuxt-link to="/priceManager">
-              <div class="flex justify-center">
-            <img src="../assets/images/dashicons_money-alt.png" width="40px" height="40px" />
+          <div class="bg--btn w-full py-16 s:py-2 rounded s:rounded-xl">
+            <nuxt-link to="/priceManager" class=" hover:text-amber-300">
+              <div class="flex justify-center s:mt-4">
+            <img src="../assets/images/dashicons_money-alt.png" class="w-10 h-10 s:w-7 s:h-7" />
                 </div>
-              <div class="flex justify-center mt-2.5">
+                <div class="flex justify-center mt-2.5 s:mt-1.5 s:text-xs text-center">
             <label>Quản lý bảng giá</label>
                 </div>
           </nuxt-link>
           </div>
-          <div class="bg--btn w-full py-16 rounded">
-            <nuxt-link to="/workingManager">
-              <div class="flex justify-center">
-            <img src="../assets/images/ic_outline-change-circle.png" width="40px" height="40px" />
+          <div class="bg--btn w-full py-16 s:py-2 rounded s:rounded-xl">
+            <nuxt-link to="/workingManager" class=" hover:text-amber-300">
+              <div class="flex justify-center s:mt-4">
+            <img src="../assets/images/ic_outline-change-circle.png" class="w-10 h-10 s:w-7 s:h-7" />
                 </div>
-              <div class="flex justify-center mt-2.5">
+                <div class="flex justify-center mt-2.5 s:mt-1.5 s:text-xs text-center">
             <label>Quản lý ca</label>
                 </div>
           </nuxt-link>
           </div>
-          <div class="bg--btn w-full py-16 rounded">
-            <nuxt-link to="/awarehouse">
-              <div class="flex justify-center">
-            <img src="../assets/images/material-symbols_warehouse-outline-rounded.png" width="40px" height="40px" />
+          <div class="bg--btn w-full py-16 s:py-2 rounded s:rounded-xl">
+            <nuxt-link to="/awarehouse" class=" hover:text-amber-300">
+              <div class="flex justify-center s:mt-4">
+            <img src="../assets/images/material-symbols_warehouse-outline-rounded.png" class="w-10 h-10 s:w-7 s:h-7" />
                 </div>
-              <div class="flex justify-center mt-2.5">
+                <div class="flex justify-center mt-2.5 s:mt-1.5 s:text-xs text-center">
             <label>Quản lý kho</label>
                 </div>
           </nuxt-link>
           </div>
-          <div class="bg--btn w-full py-16 rounded">
-            <nuxt-link to="/promotion">
-              <div class="flex justify-center">
-            <img src="../assets/images/ps_promo.png" width="40px" height="40px" />
+          <div class="bg--btn w-full py-16 s:py-2 rounded s:rounded-xl">
+            <nuxt-link to="/promotion" class=" hover:text-amber-300">
+              <div class="flex justify-center s:mt-4">
+            <img src="../assets/images/ps_promo.png" class="w-10 h-10 s:w-7 s:h-7" />
                 </div>
-              <div class="flex justify-center mt-2.5">
+                <div class="flex justify-center mt-2.5 s:mt-1.5 s:text-xs text-center">
             <label>Chương trình khuyến mãi</label>
                 </div>
           </nuxt-link>
           </div>
-          <div class="bg--btn w-full py-16 rounded">
-            <nuxt-link to="/staddManager">
-              <div class="flex justify-center">
-            <img src="../assets/images/bx_group.png" width="40px" height="40px" />
+          <div class="bg--btn w-full py-16 s:py-2 rounded s:rounded-xl">
+            <nuxt-link to="/staddManager" class=" hover:text-amber-300">
+              <div class="flex justify-center s:mt-4">
+            <img src="../assets/images/bx_group.png" class="w-10 h-10 s:w-7 s:h-7" />
                 </div>
-              <div class="flex justify-center mt-2.5">
+                <div class="flex justify-center mt-2.5 s:mt-1.5 s:text-xs text-center">
             <label>Quản lý nhân viên</label>
                 </div>
           </nuxt-link>
           </div>
-          <div class="bg--btn w-full py-16 rounded">
-            <nuxt-link to="/customerManager">
-              <div class="flex justify-center">
-            <img src="../assets/images/la_user-tie.png" width="40px" height="40px" />
+          <div class="bg--btn w-full py-16 s:py-2 rounded s:rounded-xl">
+            <nuxt-link to="/customerManager" class=" hover:text-amber-300">
+              <div class="flex justify-center s:mt-4">
+            <img src="../assets/images/la_user-tie.png" class="w-10 h-10 s:w-7 s:h-7" />
                 </div>
-              <div class="flex justify-center mt-2.5">
+                <div class="flex justify-center mt-2.5 s:mt-1.5 s:text-xs text-center">
             <label>Quản lý khách hàng</label>
                 </div>
           </nuxt-link>
           </div>
-          <div class="bg--btn w-full py-16 rounded">
-            <nuxt-link to="/warranty">
-              <div class="flex justify-center">
-            <img src="../assets/images/icon-park-outline_protect.png" width="40px" height="40px" />
+          <div class="bg--btn w-full py-16 s:py-2 rounded s:rounded-xl">
+            <nuxt-link to="/warranty" class=" hover:text-amber-300">
+              <div class="flex justify-center s:mt-4">
+            <img src="../assets/images/icon-park-outline_protect.png" class="w-10 h-10 s:w-7 s:h-7" />
                 </div>
-              <div class="flex justify-center mt-2.5">
+                <div class="flex justify-center mt-2.5 s:mt-1.5 s:text-xs text-center">
             <label>Bảo hành</label>
                 </div>
           </nuxt-link>
