@@ -13,8 +13,27 @@
     import FooterDefault from '../components/Footer/FooterDefault.vue';
 export default {
     HeaderDefault,
-    FooterDefault
+    FooterDefault,
+    head: {
+    script: [
+      {
+        src: 'https://unpkg.com/flowbite@1.5.3/dist/flowbite.js'
+      }
+    ],
+    link: [
+      {
+        rel: 'stylesheet',
+        href: 'https://unpkg.com/flowbite@1.5.3/dist/flowbite.min.css'
+      }
+    ]
+  },
+  watch:{
+    $route(){
+      location.reload();
+    }
+  }
 }
+
 </script>
 
 <style>

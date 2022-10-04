@@ -1,6 +1,6 @@
 <template>
   <div class="mt-3 mb-3">
-    <h6>Powered By <b>Tiên Phong CDS</b></h6>
+    <h6 class="w-full">Powered By <b>Tiên Phong CDS</b></h6>
   </div>
 </template>
 
